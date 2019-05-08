@@ -1,0 +1,10 @@
+Windows Subsystem for Linux
+
+https://aka.ms/wslstore
+
+
+https://aka.ms/wslusers
+
+Kali Linux
+
+
