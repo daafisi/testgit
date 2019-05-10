@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Test</title>
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="grid.css">
+
+
+
+</head>
+
+<body>
+    <div class="wrapper" id="app">
+
+
+        <div class="box" v-on:click="oppminusOne">
+
+        </div>
+
+        <div class="box">
+
+            {{oppLifeTotal}}
+
+        </div>
+
+        <div class="box" v-on:click="oppplusOne">
+
+        </div>
+        <div class="box">
+
+        </div>
+
+        <div class="box" v-on:click="resetLife">
+
+        </div>
+        <div class="box">
+
+        </div>
+
+
+        <div class="box" v-on:click="minusOne">
+
+        </div>
+
+
+        <div class="box">
+
+            {{playerLifeTotal}}
+
+        </div>
+
+        <div class="box" v-on:click='plusOne'>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
